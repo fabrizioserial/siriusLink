@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {connect} from 'react-redux';
 import './SiriusButton.scss';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faGlobe} from '@fortawesome/free-solid-svg-icons'
+import {faGlobe} from '@fortawesome/free-solid-svg-icons';
 import {faFacebook, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 /**
@@ -25,11 +25,9 @@ const SiriusButton = (props) => {
 
   useEffect(()=>{
     setButtonType(type);
-    console.log(type);
   }, [type]);
 
   useEffect(()=>{
-    console.log(selectedType);
   }, [selectedType]);
 
   useEffect(()=>{
