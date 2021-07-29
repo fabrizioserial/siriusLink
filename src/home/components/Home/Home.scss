@@ -37,14 +37,22 @@
 .home-div-cont-logo{
   position: relative;
   width: 100vw;
+  max-width: 100vw;
+  min-width: 100vw;
   display: flex;
   justify-content: center;
   padding-top: 50px;
   height: 5rem;
   box-sizing: content-box;
+  background-image: url(../../../img/deco-top.png);
+  background-size: contain;
+  background-repeat: repeat-x;
+  background-position-x: center;
+  background-position-y: top;
   .home-img-logo{
     height: 5rem;
     min-height: 50px;
+    z-index: 1000;
   }
 }
 
