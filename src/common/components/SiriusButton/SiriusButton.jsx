@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import './SiriusButton.scss';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGlobe} from '@fortawesome/free-solid-svg-icons'
-import {faFacebookSquare, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import {faFacebook, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 /**
  * @description
@@ -17,7 +17,7 @@ const SiriusButton = (props) => {
   } = props;
   const [buttonType, setButtonType] = useState(type);
   const [typeList, setTypeList] = useState([
-    {type: 'fb', text: 'Facebook', icon: faFacebookSquare, link: 'www.google.com.ar'},
+    {type: 'fb', text: 'Facebook', icon: faFacebook, link: 'www.google.com.ar'},
     {type: 'ld', text: 'LinkedIn', icon: faLinkedin, link: 'www.google.com.ar'},
     {type: 'ig', text: 'Instagram', icon: faInstagram, link: 'www.google.com.ar'},
     {type: 'wb', text: 'Our page', icon: faGlobe, link: 'www.google.com.ar'}]);

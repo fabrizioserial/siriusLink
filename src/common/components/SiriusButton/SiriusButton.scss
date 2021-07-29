@@ -15,6 +15,7 @@
   border-style: none;
   cursor: pointer;
   height: 50px;
+  min-height: 50px;
   position: relative;
   border-radius: 5px;
   p{
@@ -35,12 +36,21 @@
 }
 .ig{
   background-color:$lightyellow ;
+  &:hover{
+    background-color: $lightyellow-hover;
+  }
 }
 .ld{
   background-color:$lightred ;
+  &:hover{
+    background-color: $lightred-hover;
+  }
 }
 .wb{
   background-color:$lightgrey ;
+  &:hover{
+    background-color: $lightgrey-hover;
+  }
 }
 
 @media screen and (max-width: 425px){
