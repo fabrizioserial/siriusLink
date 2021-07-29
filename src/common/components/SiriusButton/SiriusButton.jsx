@@ -17,10 +17,10 @@ const SiriusButton = (props) => {
   } = props;
   const [buttonType, setButtonType] = useState(type);
   const [typeList, setTypeList] = useState([
-    {type: 'fb', text: 'Facebook', icon: faFacebook, link: 'www.google.com'},
-    {type: 'ld', text: 'LinkedIn', icon: faLinkedin, link: 'www.google.com'},
-    {type: 'ig', text: 'Instagram', icon: faInstagram, link: 'www.google.com'},
-    {type: 'wb', text: 'Our page', icon: faGlobe, link: 'www.google.com'}]);
+    {type: 'fb', text: 'Facebook', icon: faFacebook, link: 'https://www.facebook.com/sirius.systems'},
+    {type: 'ld', text: 'LinkedIn', icon: faLinkedin, link: 'https://www.linkedin.com/company/sirius-software-dev/mycompany/'},
+    {type: 'ig', text: 'Instagram', icon: faInstagram, link: 'https://www.instagram.com/sirius_software/'},
+    {type: 'wb', text: 'Our page', icon: faGlobe, link: 'https://sirius.com.ar/'}]);
   const [selectedType, setSelectedType] = useState(false);
 
   useEffect(()=>{
