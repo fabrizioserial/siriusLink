@@ -1,0 +1,38 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+*.pyc
+builds/
+node_modules/
+www/
+.DS_Store
+.sass-cache
+robots.txt
+package-lock.json
+*.log
+*.lock
+/node_modules
+/dist
+/.tmp
+/.sass-cache
+/bower_components
+/app/styles/screen.css
+/environments
+.vscode/
+venv/
+.idea/
+.datadir
+media/
+logs/
+saccess/photos/
+.env
+*.env
+*.pid
+bin/
+lib/
+build/
