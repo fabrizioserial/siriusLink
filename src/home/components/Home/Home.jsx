@@ -2,7 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import './Home.scss';
 import logo from '../../../img/sirius-logo.png';
-import deco from '../../../img/deco-large.png';
+import deco from '../../../img/decoration-slarge.png';
 import SiriusButton from '../../../common/components/SiriusButton/SiriusButton';
 
 

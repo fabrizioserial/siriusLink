@@ -14,15 +14,13 @@
 }
 
 .home-div-decoration{
-  position: fixed;
+  position: absolute;
   bottom: 0px;
-  right: 0px;
   min-width: 100vw;
   max-width: 100vw;
   .home-img-decoration{
-    min-height: 30px;
     object-fit: cover;
-    height: fit-content;
+    height: 30px;
     min-width: 100vw;
     max-width: 100vw;
     position: absolute;
