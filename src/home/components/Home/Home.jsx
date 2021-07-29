@@ -30,9 +30,11 @@ const Home = (props) => {
       {
         // Hola
       }
-        <div className='home-div-decoration'>
-            <img src={deco} className='home-img-decoration'/>
-        </div>
+      <div className='home-div-decoration'>
+          {
+              ///<img src={deco} className='home-img-decoration'/>
+          }
+      </div>
     </div>
   );
 };
