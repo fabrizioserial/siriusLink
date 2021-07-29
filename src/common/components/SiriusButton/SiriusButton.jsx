@@ -17,10 +17,10 @@ const SiriusButton = (props) => {
   } = props;
   const [buttonType, setButtonType] = useState(type);
   const [typeList, setTypeList] = useState([
-    {type: 'fb', text: 'Facebook', icon: faFacebook, link: 'www.google.com.ar'},
-    {type: 'ld', text: 'LinkedIn', icon: faLinkedin, link: 'www.google.com.ar'},
-    {type: 'ig', text: 'Instagram', icon: faInstagram, link: 'www.google.com.ar'},
-    {type: 'wb', text: 'Our page', icon: faGlobe, link: 'www.google.com.ar'}]);
+    {type: 'fb', text: 'Facebook', icon: faFacebook, link: 'www.google.com'},
+    {type: 'ld', text: 'LinkedIn', icon: faLinkedin, link: 'www.google.com'},
+    {type: 'ig', text: 'Instagram', icon: faInstagram, link: 'www.google.com'},
+    {type: 'wb', text: 'Our page', icon: faGlobe, link: 'www.google.com'}]);
   const [selectedType, setSelectedType] = useState(false);
 
   useEffect(()=>{
@@ -39,7 +39,7 @@ const SiriusButton = (props) => {
   return (
     selectedType ?
         // eslint-disable-next-line max-len
-      <button className={`sirius-btn ${selectedType.type}`} onClick={selectedType.link}>
+      <button className={`sirius-btn ${selectedType.type}`} onClick={()=>window.location.href=selectedType.link}>
         <FontAwesomeIcon className='sirius-btn-icon' icon={selectedType.icon}/>
         <p>{
           selectedType.text
